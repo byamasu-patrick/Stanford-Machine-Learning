@@ -1,0 +1,72 @@
+#Importing the time module and sleep
+from time import time, sleep
+#this is a program to run on the HY92 module for the Nanya Rocket 
+print 'Program initiating'
+print time()
+print 'Mission Launch'+' Procedure 14.0'
+#Correcting string function to str function which is know by Python
+module_name = str('HY92')
+##########the following are numerical variables#####
+# Declaring variables in order to do some calculation with them
+A1 = 4
+A2 = 28
+A3 = 10 # this is a module identifier
+A4 = 14 # this is another module identifier
+A5 = 39 
+A6 = 6
+
+#this is a section which uses the variables defined above                                        
+product= A1 * A2
+quotient = A4 / A3                
+module_math = product + quotient 
+Clearance_Given = True
+Clearance_Status = Clearance_Given + module_math
+sleep_time = 1 
+print 'Program closing in...'
+sleep(sleep_time)
+print '5'
+sleep(sleep_time)
+print '4'
+sleep(sleep_time)
+print '3'
+sleep(sleep_time)
+print '3'
+sleep(sleep_time)
+print '1'
+sleep(sleep_time)
+print 'closed'
+print time()
+print "Mission Launch"+"Procedure 14.0"
+
+module_name = str('HY92')
+##########the following are numerical variables#####
+A1 = 4
+A2 = 28
+A3 = 10 # this is a module identifier
+A4 = 14 # this is another module identifier
+A5 = 39 
+A6 = 6
+
+#this is a section which uses the variables defined above                                        
+product= A1 * A2
+quotient = A4 / A3                
+module_math = product + quotient 
+
+Clearance_Given = True
+Clearance_Status = Clearance_Given + module_math
+sleep_time = 1 
+print 'Program closing in...'
+sleep(sleep_time)
+print '5'
+sleep(sleep_time)
+print '4'
+sleep(sleep_time)
+print '3'
+sleep(sleep_time)
+print '3'
+sleep(sleep_time)
+print '1'
+sleep(sleep_time)
+print 'closed'
+
+
